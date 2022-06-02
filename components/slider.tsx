@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import { useCallback, useContext, useRef } from "react";
 import { ScrollContext } from "../utils/scroll-observer";
 import useAnimationFrame from "../utils/use-animation-frame";
 
@@ -19,7 +19,7 @@ const SliderContainer: React.FC<Props> = ({ initialOffsetX, className, contentWi
 
   useAnimationFrame(
     enabled, 
-    React.useCallback(() => {
+    useCallback(() => {
       const { current: elContainer } = refContainer
       const { current: elContent } = refContent
       
@@ -52,10 +52,10 @@ interface ItemProps {
   children: React.ReactNode
 }
 
-export const SliderItem: React.FC<ItemProps> = ({children, width}) => (
+export const SliderItem: React.FC<ItemProps> = ({ children, width }) => (
   <div
     className="inline-flex justify-center items-center mx-4"
-    style={{width}}
+    style={{ width }}
   >
     {children}
   </div>
