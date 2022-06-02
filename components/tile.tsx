@@ -1,9 +1,9 @@
-import React, { useRef, useContext } from "react";
+import React, { useRef, useContext, ReactNode } from "react";
 import { ScrollContext } from "../utils/scroll-observer";
 
 interface WrapperProps {
   numOfPages: number;
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 interface TileContextValue {

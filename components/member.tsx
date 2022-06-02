@@ -9,7 +9,7 @@ interface Props {
   link: string;
 }
 
-const Member: React.FC<Props> = ({ id, name, socialId, link }: Props) => (
+const Member: React.FC<Props> = ({ id, name, socialId, link }) => (
   <div>
     <Image
       src={`/assets/team/towedd_faces_${id}.svg`}
