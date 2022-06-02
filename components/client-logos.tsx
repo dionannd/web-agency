@@ -90,7 +90,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/snapcalorie.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -99,7 +99,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/tocsen.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -108,7 +108,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/audubon.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -117,7 +117,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/slingshot.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -126,7 +126,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/showtime.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -135,7 +135,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/steakwallet.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -144,7 +144,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/expensify.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -153,7 +153,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
       <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/pinkpanda.webp"
           width={150}
           height={50}
           alt="Audubon"
@@ -162,7 +162,7 @@ const ClientLogos: React.FC = () => (
       </SliderItem>
        <SliderItem width={150}>
         <Image 
-          src="/assets/trustedby/snappcalorie.webp"
+          src="/assets/trustedby/litentry.webp"
           width={150}
           height={50}
           alt="Audubon"

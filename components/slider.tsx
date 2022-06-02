@@ -1,16 +1,16 @@
-import { useCallback, useContext, useRef } from "react";
-import { ScrollContext } from "../utils/scroll-observer";
+import { ReactNode, useCallback, useContext, useRef } from "react";
+import { SizeContext } from "../utils/size-observer";
 import useAnimationFrame from "../utils/use-animation-frame";
 
 interface Props {
   initialOffsetX: number
   className: string
   contentWidth: number
-  children: React.ReactNode
+  children: ReactNode
 }
 
-const SliderContainer: React.FC<Props> = ({ initialOffsetX, className, contentWidth, children}: Props) => {
-  const { innerWidth } = useContext(ScrollContext)
+const SliderContainer: React.FC<Props> = ({ initialOffsetX, className, contentWidth, children }) => {
+  const { innerWidth } = useContext(SizeContext)
   const refScrollX = useRef<number>(initialOffsetX) 
   const refContainer = useRef<HTMLDivElement>(null)
   const refContent = useRef<HTMLDivElement>(null)

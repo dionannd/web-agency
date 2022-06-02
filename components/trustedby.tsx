@@ -8,7 +8,7 @@ const TrustedBy: React.FC = () => {
     <section className={`bg-white min-h-screen flex flex-col justify-center gap-16 md:gap-32 ${s.bg}`}>
       <div className="flex-1"></div>
       <div className="flex flex-col justify-center items-center">
-        <h3 className="text-xl mb-10 font-bold text-center">
+        <h3 className="text-xl font-bold text-center">
           <span className="whitespace-nowrap">trusted by</span>{' '}
           <span className="whitespace-nowrap">some of apps you use daily</span>
         </h3>

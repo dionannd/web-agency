@@ -16,7 +16,7 @@ const Works = () => (
             <WorkLeft progress={progress}>
               <div>We built</div>
               <div className="text-4xl font-semibold tracking-tight md:text-5xl">
-                <WorkLink href="#">Wedding&apos;s</WorkLink> app
+                <WorkLink href="#">Pink Panda&apos;s</WorkLink> app
               </div>
             </WorkLeft>
             <WorkRight progress={progress}>
