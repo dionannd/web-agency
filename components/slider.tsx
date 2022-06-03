@@ -49,7 +49,7 @@ const SliderContainer: React.FC<Props> = ({ initialOffsetX, className, contentWi
 
 interface ItemProps {
   width: number,
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export const SliderItem: React.FC<ItemProps> = ({ children, width }) => (

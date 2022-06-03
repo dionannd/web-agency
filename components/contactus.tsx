@@ -6,7 +6,12 @@ const ContactUs: React.FC = () => {
     <div className='bg-black text-white flex flex-col justify-center pt-10 min-h-screen'>
       <div className='flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6'>
         <div className='pb-10'>
-
+          <Image 
+            src='/assets/logo.svg'
+            width={30}
+            height={30}
+            alt='logo'
+          />
         </div>
         <h2 className='text-4xl font-bold'>Contact Us</h2>
         <form className='flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full lg:min-w-[500px]'>

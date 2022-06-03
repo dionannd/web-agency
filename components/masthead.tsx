@@ -45,7 +45,7 @@ const Masthead: React.FC = () => {
           src="/assets/logo.svg"
           alt="logo type"
           width={128 / 3}
-          height={128 / 3}
+          height={114 / 3}
         />
       </div>
       <div className="p-12 font-bold z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
