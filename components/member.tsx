@@ -12,7 +12,7 @@ interface Props {
 const Member: React.FC<Props> = ({ id, name, socialId, link }) => (
   <div>
     <Image
-      src={`/assets/team/towedd_faces_${id}.svg`}
+      src={`/assets/team/margelo_faces_${id}.svg`}
       alt={name}
       width={1366}
       height={1555}

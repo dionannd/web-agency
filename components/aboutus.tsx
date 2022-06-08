@@ -12,26 +12,38 @@ const AboutUs: React.FC = () => {
         </p>
       </div>
       <div className="container mx-auto px-11 text-center mt-28">
-        <h2>Our Team</h2>
+        <h2 className="font-bold">Our Team</h2>
         <div className="mt-2">the &ldquo;spec-ops&rdquo;</div>
         <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
+          <Member id="marc" name="Marc" socialId="@mrousavy" link="#" />
+          <Member id="szymon" name="Szymon" socialId="@szymon20000" link="#" />
           <Member
-            id="dira"
-            name="Dira"
-            socialId="@revell29"
-            link="https://github.com/revell29"
+            id="thomas"
+            name="Thomas"
+            socialId="@thomas-coldwell"
+            link="#"
           />
           <Member
-            id="dion"
-            name="Dion"
-            socialId="@dionannd"
-            link="https://github.com/dionannd"
+            id="christoph"
+            name="Christoph"
+            socialId="@chrispader"
+            link="#"
           />
+          <Member id="janic" name="Janic" socialId="@janicduplessis" link="#" />
           <Member
-            id="david"
-            name="David"
-            socialId="@davidgrld"
-            link="https://github.com/davidgrld"
+            id="catalin"
+            name="Catalin"
+            socialId="@catalinmiron"
+            link="#"
+          />
+          <Member id="mo" name="Mo" socialId="@gorhom" link="#" />
+          <Member id="eric" name="Eric" socialId="@ericvicenti" link="#" />
+          <Member id="matei" name="Matei" socialId="@mateioprea" link="#" />
+          <Member
+            id="viktoria"
+            name="Viktoria"
+            socialId="@viktoria.psd"
+            link="#"
           />
         </div>
       </div>
