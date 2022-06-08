@@ -21,9 +21,9 @@ const Masthead: React.FC = () => {
   return (
     <div
       ref={refContainer}
-      className="min-h-screen flex flex-col items-center justify-center sticky top-0 -z-10"
+      className="min-h-screen flex flex-col items-center justify-center bg-[a2a2a4] sticky top-0 -z-10"
       style={{
-        transform: `translateY(-${progress * 20}vh)`
+        transform: `translateY(-${progress * 20}vh)`,
       }}
     >
       <video
@@ -56,8 +56,9 @@ const Masthead: React.FC = () => {
       </div>
       <div
         className={`flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${
-          !imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'
-      }`}>
+          !imageLoaded ? "opacity-100" : "opacity-0 -translate-y-10"
+        }`}
+      >
         <Image
           src="/assets/arrow-down.png"
           alt="scroll down"

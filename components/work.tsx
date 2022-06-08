@@ -1,11 +1,11 @@
-import React from "react";
-import Link, { LinkProps } from "next/link";
+import React, { ReactNode } from "react";
+import Link from "next/link";
 
 interface Props {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
-export const WorkContainer: React.FC<Props> = ({ children }: Props) => (
+export const WorkContainer: React.FC<Props> = ({ children }) => (
   <div className="grid w-full min-h-screen grid-cols-1 lg:grid-cols-2">
     {children}
   </div>
@@ -19,7 +19,7 @@ export const WorkBackground: React.FC = () => (
 );
 
 export const WorkLeft: React.FC<{
-  children: React.ReactNode;
+  children: ReactNode;
   progress: number;
 }> = ({ children, progress }) => {
   let translateY = Math.max(0, 50 - progress * 3 * 50);
@@ -38,7 +38,7 @@ export const WorkLeft: React.FC<{
 };
 
 export const WorkRight: React.FC<{
-  children: React.ReactNode;
+  children: ReactNode;
   progress: number;
 }> = ({ children, progress }) => {
   let translateY = Math.max(-50, -(progress - 0.5) * 50);
@@ -58,18 +58,18 @@ export const WorkRight: React.FC<{
 };
 
 interface LinkProps {
-  href: string
-  children: React.ReactNode;
+  href: string;
+  children: ReactNode;
 }
 
-export const WorkLink: React.FC<LinkProps> = ({ href, children }: LinkProps) => (
+export const WorkLink: React.FC<LinkProps> = ({ href, children }) => (
   <Link href={href}>
-    <a 
-      target="_blank" 
-      rel="noreferrer" 
+    <a
+      target="_blank"
+      rel="noreferrer"
       className="underline underline-offset-8 decoration-1"
     >
       {children}
     </a>
   </Link>
-)
+);

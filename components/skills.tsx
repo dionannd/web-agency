@@ -38,7 +38,7 @@ const Skills: React.FC = () => {
               opacity: opacityForBlock(progress, 0),
             }}
           >
-            We know out tools inside out.
+            We know our tools inside out.
           </div>
           <span
             className={`${s.skillText} inline-block after:content-['_']`}
