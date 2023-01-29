@@ -1,0 +1,35 @@
+[
+  {
+    "page": 0,
+    "header": "We built",
+    "link": "#",
+    "namelink": "Pink Panda",
+    "endTitle": "'s app.",
+    "src": "/assets/works/pinkpanda.png",
+    "width": 840,
+    "height": 1620,
+    "alt": "Pink Panda"
+  },
+  {
+    "page": 1,
+    "header": "We made",
+    "link": "#",
+    "namelink": "Steakwallet",
+    "endTitle": " faster.",
+    "src": "/assets/works/steakwallet.png",
+    "width": 840,
+    "height": 1620,
+    "alt": "Steak Wallet"
+  },
+  {
+    "page": 2,
+    "header": "We helped",
+    "link": "#",
+    "namelink": "Showtime",
+    "endTitle": "ship faster.",
+    "src": "/assets/works/showtime.png",
+    "width": 840,
+    "height": 1620,
+    "alt": "Showtime"
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "src": "/assets/trustedby/coinbase.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Coinbase"
+  },
+  {
+    "src": "/assets/trustedby/rainbow.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Rainbow"
+  },
+  {
+    "src": "/assets/trustedby/walletconnect.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Wallet Connect"
+  },
+  {
+    "src": "/assets/trustedby/exodus.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Exodus"
+  },
+  {
+    "src": "/assets/trustedby/picnic.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Picnic"
+  },
+  {
+    "src": "/assets/trustedby/status.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Status"
+  },
+  {
+    "src": "/assets/trustedby/extra.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Extra"
+  },
+  {
+    "src": "/assets/trustedby/stori.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Strory"
+  },
+  {
+    "src": "/assets/trustedby/shopify.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Shopify"
+  },
+  {
+    "src": "/assets/trustedby/scribeware.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Scribeware"
+  },
+  {
+    "src": "/assets/trustedby/snapcalorie.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Snap Calorie"
+  },
+  {
+    "src": "/assets/trustedby/tocsen.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Tocsen"
+  },
+  {
+    "src": "/assets/trustedby/audubon.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Audubon"
+  },
+  {
+    "src": "/assets/trustedby/slingshot.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Slingshot"
+  },
+  {
+    "src": "/assets/trustedby/showtime.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Showtime"
+  },
+  {
+    "src": "/assets/trustedby/steakwallet.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Steakwallet"
+  },
+  {
+    "src": "/assets/trustedby/expensify.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Expensify"
+  },
+  {
+    "src": "/assets/trustedby/pinkpanda.webp",
+    "width": 200,
+    "height": 50,
+    "alt": "Pink Panda"
+  },
+  {
+    "src": "/assets/trustedby/litentry.webp",
+    "width": 150,
+    "height": 50,
+    "alt": "Litentry"
+  }
+]

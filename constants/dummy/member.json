@@ -1,0 +1,62 @@
+[
+  {
+    "id": "marc",
+    "name": "Marc",
+    "socialId": "@mrousavy",
+    "link": "#"
+  },
+  {
+    "id": "szymon",
+    "name": "Szymon",
+    "socialId": "@szymon20000",
+    "link": "#"
+  },
+  {
+    "id": "thomas",
+    "name": "Thomas",
+    "socialId": "@thomas-coldwell",
+    "link": "#"
+  },
+  {
+    "id": "christoph",
+    "name": "Christoph",
+    "socialId": "@chrispader",
+    "link": "#"
+  },
+  {
+    "id": "janic",
+    "name": "Janic",
+    "socialId": "@janicduplessis",
+    "link": "#"
+  },
+  {
+    "id": "catalin",
+    "name": "Catalin",
+    "socialId": "@catalinmiron",
+    "link": "#"
+  },
+  {
+    "id": "mo",
+    "name": "Mo",
+    "socialId": "@gorhom",
+    "link": "#"
+  },
+  {
+    "id": "eric",
+    "name": "Eric",
+    "socialId": "@ericvicenti",
+    "link": "#"
+  },
+  {
+    "id": "matei",
+    "name": "Matei",
+    "socialId": "@mateioprea",
+    "link": "#"
+  },
+  {
+    "id": "viktoria",
+    "name": "Viktoria",
+    "socialId": "@viktoria.psd",
+    "link": "#"
+  }
+]
